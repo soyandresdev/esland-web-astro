@@ -1,40 +1,55 @@
-# Astro Starter Kit: Basics
+# Esland Awards Page Clone with Astro.js
+**This project isn't official**
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Description
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+This project is a clone of the Esland Awards website, an awards ceremony organized by the Spanish YouTuber and streamer, TheGrefg. The awards recognize outstanding content creators within the Spanish-speaking streaming community.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+![Esland Awards](link_to_image)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Technologies Used
 
-## 🚀 Project Structure
+- Astro.js
+- HTML
+- CSS
+- JavaScript
 
-Inside of your Astro project, you'll see the following folders and files:
+## Installation
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+To run this project locally, follow these steps:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1. Clone the repository:
+`git clone git@github.com:soyandresdev/esland-web-astro.git`
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+2. Navigate to the project directory:
+`cd esland-web-astro`
+3. Install dependencies:
+`npm install`
+4. Start the development server:
+`npm run dev`
 
-Any static assets, like images, can be placed in the `public/` directory.
+5. Open your browser and visit http://localhost:3000 to view the Esland Awards clone.
+
+## Features
+
+- Recreate the main layout and design of the Esland Awards website.
+- Implement responsive design for various screen sizes.
+- Include interactive elements and animations where necessary.
+- Display information about TheGrefg and the award categories.
+
+## Usage
+
+You can use this project as a starting point for building your own website or as a reference for Astro.js development.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to your branch: `git push origin feature-name`.
+5. Create a pull request on the original repository.
 
 ## 🧞 Commands
 
@@ -52,3 +67,13 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Acknowledgments
+
+- TheGrefg for inspiring this project with the Esland Awards website.
+- The Astro.js community for providing an excellent framework for building fast and modern websites.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
